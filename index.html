@@ -1,12 +1,44 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .kotak {
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+        }
+        .container {
+            display: flex;
+            width: 460px;
+            flex-wrap: wrap;
+        }
+    </style>
 </head>
 <body>
-    <marquee behavior="" direction="">
-        <center>
-        <h1 style="color: rgb(246, 31, 31);">Aku pens Emyu dan aku bangga</h1>
-    </center>
-</marquee>
+    <center><h1>Tic Tac Toe</h1></center>
+            <p>
+                <label> Username :</label>
+                <input type="text" name="Username" placeholder="Masukkan Username">
+                <br><br>
+                <label> Kelas :</label>
+                <input type="text" name="Kelas" placeholder="Masukkan Kelas">
+                <br><br>
+                <label> Level :</label>
+                <input type="text" name="Level" placeholder="Level kamu">
+            </p>
+    <div class="container">
+    <div class="kotak" style="background-color: blue;">Kotak 1</div>
+    <div class="kotak" style="background-color: blue;">Kotak 2</div>
+    <div class="kotak" style="background-color: blue;">Kotak 3</div>
+    <div class="kotak" style="background-color: red;">Kotak 4</div>
+    <div class="kotak" style="background-color: rgb(0, 255, 55);">Kotak 5</div>
+    <div class="kotak" style="background-color: rgb(255, 0, 140);">Kotak 6</div>
+    <div class="kotak" style="background-color: rgb(42, 165, 161);">Kotak 7</div>
+    <div class="kotak"style="background-color: gray;">Kotak 8</div>
+    <div class="kotak"style="background-color: brown;">Kotak 9</div> 
+    </div>
 </body>
 </html>
